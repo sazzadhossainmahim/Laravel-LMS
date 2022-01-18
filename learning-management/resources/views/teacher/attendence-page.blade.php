@@ -12,12 +12,12 @@
                              <div class="row">
                             <div class="col-md-3">
                               <div class="form-group">
-                                  <label 
+                                  <label
                                   >Department</label>
-                                  
+
                                   <select class="form-control" name="dept" id="" required>
                                   <option value="">--Department--</option>
-                                  <option value="CSE">CSE</option>
+                                  <option value="SWE">SWE</option>
                                   <option value="EEE">EEE</option>
                                   <option value="ECE">ECE</option>
                                   <option value="BBA">BBA</option>
@@ -28,7 +28,7 @@
                               <div class="col-md-3">
                             <div class="form-group">
                                   <label>Batch</label>
-                                  <input type="number" class="form-control" placeholder="Batch" name="batch" required>    
+                                  <input type="number" class="form-control" placeholder="Batch" name="batch" required>
                             </div>
                             </div>
                             <div class="col-md-3">
@@ -45,7 +45,7 @@
                             <div class="col-md-3">
                               <div class="form-group">
                                   <label>Section</label>
-                                  
+
                                   <select class="form-control" name="section" id="" required>
                                   <option value="">--Section--</option>
                                   <option value="A">A</option>
@@ -81,7 +81,7 @@
                                  <button type="submit" class="btn btn-success btn-block mt-4">Take Attendence</button>
                               </div>
                               </div>
-                             
+
                           </form>
                       </div>
                       </div>

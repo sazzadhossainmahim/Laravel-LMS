@@ -15,7 +15,7 @@
                             </div>
                             <div class="form-group">
                                   <label for="exampleInputEmail1">Teacher Id</label>
-                                  <input type="text" class="form-control p-input" id="exampleInputEmail3" placeholder="Teacher's Id" name="teacher_student_id" required>    
+                                  <input type="text" class="form-control p-input" id="exampleInputEmail3" placeholder="Teacher's Id" name="teacher_student_id" required>
                             </div>
                             <div class="form-group">
                                   <label for="exampleInputEmail1">Email address</label>
@@ -27,10 +27,10 @@
                             </div>
                               <div class="form-group">
                                   <label for="exampleInputEmail1">Department</label>
-                                  
+
                                   <select class="form-control p-input" name="dept" id="" required>
                                   <option value="">--Department--</option>
-                                  <option value="CSE">CSE</option>
+                                  <option value="SWE">SWE</option>
                                   <option value="EEE">EEE</option>
                                   <option value="ECE">ECE</option>
                                   <option value="BBA">BBA</option>

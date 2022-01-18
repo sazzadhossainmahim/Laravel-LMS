@@ -52,6 +52,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin']], function () {
       Route::get('/course_edit/{id?}', [CourseController::class, 'CourseShow']);
       Route::post('/course_edit/{id?}', [CourseController::class, 'CourseEdit']);
       Route::get('/course_delete/{id?}', [CourseController::class, 'CourseDelete']);
+      Route::get('/logout', [LoginController::class, 'Logout'])->name('logout');
 });
 Route::get('/login', [LoginController::class, 'PageLogin']);
 Route::post('/login', [LoginController::class, 'Login'])->name('login');

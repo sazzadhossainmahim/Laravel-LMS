@@ -18,9 +18,9 @@
                             </div>
                             <div class="col-md-3">
                               <div class="form-group">
-                                  <label 
+                                  <label
                                   >Department</label>
-                                  
+
                                   <select class="form-control" name="dept" id="" required>
                                   <option value="">--Department--</option>
                                   <option value="SWE">SWE</option>
@@ -35,18 +35,18 @@
                               <div class="col-md-3">
                             <div class="form-group">
                                   <label>Batch</label>
-                                  <input type="number" class="form-control" placeholder="Batch" name="batch" required>    
+                                  <input type="number" class="form-control" placeholder="Batch" name="batch" required>
                             </div>
                             </div>
                             <div class="col-md-3">
                               <div class="form-group">
                                   <label>Section</label>
-                                  
+
                                   <select class="form-control" name="section" id="" required>
                                   <option value="">--Section--</option>
                                   <option value="A">A</option>
                                   <option value="B">B</option>
-                                  <option value="c">c</option>
+                                  <option value="C">C</option>
                                   <option value="D">D</option>
                                   <option value="E">E</option>
                                   <option value="F">F</option>
@@ -87,12 +87,12 @@
                             <div class="col-md-3">
                             <div class="form-group">
                                   <label>Teacher Id</label>
-                                  <input type="text" class="form-control" placeholder="Student's Id" name="teacher_student_id" required>    
+                                  <input type="text" class="form-control" placeholder="Student's Id" name="teacher_student_id" required>
                             </div>
                             </div>
                             <div class="col-md-3">
                             <div class="form-group">
-                                  <label 
+                                  <label
                                   >Email address</label>
                                   <input type="email" class="form-control"  placeholder="Enter email" name="email" required>
                             </div>
@@ -107,7 +107,7 @@
                                  <button type="submit" class="btn btn-success btn-block mt-4">Submit</button>
                               </div>
                               </div>
-                             
+
                           </form>
                       </div>
                       </div>
@@ -130,7 +130,7 @@
                       </tr>
                     </thead>
                     <tbody>
-                          @php 
+                          @php
                             $i=0;
                           @endphp
                       @foreach($students AS $student)
@@ -147,7 +147,7 @@
                        			<button class="btn btn-outline-info">Edit</button>
                        		</a>
                        		<a href="{{ URL::to('teacher/student_delete',['id'=>$student->id]) }}"><button class="btn btn-outline-danger">Delete</button>
-        
+
                        		</a>
                        	</td>
                        </tr>

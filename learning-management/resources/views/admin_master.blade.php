@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="{{ asset('../css/style.css') }}">
   <!-- endinject -->
   <link rel="shortcut icon" href="{{ asset('../images/favicon.html') }}" />
-  
+
 </head>
 <body>
   <!-- partial:partials/_settings-panel.html -->
@@ -116,7 +116,7 @@
               <p>Available</p>
             </div>
           </li>
-          
+
         </ul>
       </div>
       <!-- chat section tabends -->
@@ -134,11 +134,9 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="btn-group d-none d-sm-block">
-          <button type="button" class="btn btn-secondary btn-sm text-muted border-0 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <li>
           <a class="log-out-btn text-danger" href="{{URL::to('logout')}}">Logout</a>
           </li>
-          </button>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Action</a>
             <a class="dropdown-item" href="#">Another action</a>
@@ -162,7 +160,7 @@
                 </div>
                 <div class="sender">
                   <p class="Sende-name">View Profile</p>
-                 
+
                 </div>
               </a>
               <a class="dropdown-item" href="{{ URL::to('admin/setting') }}">
@@ -219,7 +217,7 @@
                 <span class="menu-title">Course List</span>
               </a>
             </li>
-          
+
             <!--main pages end-->
             <!--sample pages start-->
             <!-- ui end -->
@@ -249,12 +247,12 @@
         <!-- partial -->
       </div>
       <!-- row-offcanvas ends -->
-      
+
     </div>
     <!-- page-body-wrapper ends -->
   </div>
   <!-- container-scroller -->
-  
+
   <!-- plugins:js -->
   <script src="{{ asset('../node_modules/jquery/dist/jquery.min.js') }}"></script>
   <script src="{{ asset('../node_modules/popper.js/dist/umd/popper.min.js') }}"></script>

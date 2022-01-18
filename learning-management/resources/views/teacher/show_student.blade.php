@@ -19,10 +19,10 @@
                             <div class="col-md-3">
                               <div class="form-group">
                                   <label>Department</label>
-                                  
+
                                   <select class="form-control" name="dept" id="" required>
                                   <option value="">--Department--</option>
-                                  <option @if($user->dept=="CSE") selected @endif value="CSE">CSE</option>
+                                  <option @if($user->dept=="SWE") selected @endif value="SWE">SWE</option>
                                   <option  @if($user->dept=="EEE") selected @endif value="EEE">EEE</option>
                                   <option  @if($user->dept=="ECE") selected @endif value="ECE">ECE</option>
                                   <option  @if($user->dept=="BBA") selected @endif value="BBA">BBA</option>
@@ -33,13 +33,13 @@
                               <div class="col-md-3">
                             <div class="form-group">
                                   <label>Batch</label>
-                                  <input type="number" class="form-control" placeholder="Batch" name="batch" value="{{$user->batch}}" required>    
+                                  <input type="number" class="form-control" placeholder="Batch" name="batch" value="{{$user->batch}}" required>
                             </div>
                             </div>
                             <div class="col-md-3">
                               <div class="form-group">
                                   <label>Section</label>
-                                  
+
                                   <select class="form-control" name="section" id="" required>
                                   <option value="">--Section--</option>
                                   <option @if($user->section=="A") selected @endif value="A">A</option>
@@ -74,12 +74,12 @@
                             <div class="col-md-3">
                             <div class="form-group">
                                   <label>Teacher Id</label>
-                                  <input type="text" class="form-control" placeholder="Student's Id" name="teacher_student_id" value="{{$user->teacher_student_id}}" required>    
+                                  <input type="text" class="form-control" placeholder="Student's Id" name="teacher_student_id" value="{{$user->teacher_student_id}}" required>
                             </div>
                             </div>
                             <div class="col-md-3">
                             <div class="form-group">
-                                  <label 
+                                  <label
                                   >Email address</label>
                                   <input type="email" class="form-control"  placeholder="Enter email" name="email" value="{{$user->email}}" required>
                             </div>
@@ -94,7 +94,7 @@
                                  <button type="submit" class="btn btn-success btn-block mt-4">Submit</button>
                               </div>
                               </div>
-                             
+
                           </form>
                       </div>
                       </div>
