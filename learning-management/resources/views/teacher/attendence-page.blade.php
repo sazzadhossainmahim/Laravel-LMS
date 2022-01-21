@@ -3,7 +3,7 @@
   <div class="col-12 col-lg-12 grid-margin">
                   <div class="card shadow p-3 m-5 bg-white rounded">
                       <div class="card-body px-5">
-                          <h2 class="card-title">Basic form elements</h2>
+                          <h2 class="card-title">Take Attandance</h2>
                           @if(Session::has('message'))
                           <div class="bg-dark text-success text-center p-2">{{ Session::get('message') }}</div>
                           @endif

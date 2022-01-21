@@ -37,7 +37,7 @@
       </li>
     </ul>
     <div class="tab-content" id="setting-content">
-      <div class="tab-pane fade show active" id="layouts-section" role="tabpanel" aria-labelledby="layouts-tab">
+      {{-- <div class="tab-pane fade show active" id="layouts-section" role="tabpanel" aria-labelledby="layouts-tab">
         <div class="color-tiles">
           <div class="tiles primary" id="primary-theme"></div>
           <div class="tiles success" id="success-theme"></div>
@@ -70,9 +70,9 @@
             <a class="dropdown-item" href="#" id="hidden-menu-2-layout-view">Hidden Menu 2</a>
           </div>
         </div>
-      </div>
+      </div> --}}
       <!-- layout section tabends -->
-      <div class="tab-pane fade" id="chats-section" role="tabpanel" aria-labelledby="chats-tab">
+      {{-- <div class="tab-pane fade" id="chats-section" role="tabpanel" aria-labelledby="chats-tab">
         <ul class="chat-list">
           <li class="list active">
             <div class="profile"><img src="http://via.placeholder.com/47x47" alt=""><span class="online"></span></div>
@@ -118,7 +118,7 @@
           </li>
 
         </ul>
-      </div>
+      </div> --}}
       <!-- chat section tabends -->
     </div>
   </div>
@@ -137,20 +137,20 @@
           <li>
           <a class="log-out-btn text-danger" href="{{URL::to('logout')}}">Logout</a>
           </li>
-          <div class="dropdown-menu">
+          {{-- <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Action</a>
             <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Separated link</a>
-          </div>
+          </div> --}}
         </div>
-        <form class="form-inline mt-2 ml-3 mt-md-0 d-none d-sm-block">
+        {{-- <form class="form-inline mt-2 ml-3 mt-md-0 d-none d-sm-block">
           <div class="input-group solid">
             <span class="input-group-addon"><i class="mdi mdi-magnify"></i></span>
             <input type="text" class="form-control">
           </div>
-        </form>
+        </form> --}}
         <ul class="navbar-nav ml-lg-auto">
           <li class="nav-item dropdown">
             <div class="dropdown-menu navbar-dropdown mail-notification" aria-labelledby="MailDropdown">
